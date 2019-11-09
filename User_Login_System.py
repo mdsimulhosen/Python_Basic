@@ -17,7 +17,7 @@ e1.grid(row=1, column=1, pady=5, padx=20)
 
 lb2 = Label(root, text="Password", bd=5, font=("calibri", 14, "bold"))
 lb2.grid(row=2, column=0, pady=5, padx=20)
-e2 = Entry(root, textvariable=password, bd=5, font=("calibri", 14, "bold"))
+e2 = Entry(root, textvariable=password, bd=5, font=("calibri", 14, "bold"), show="*")
 e2.grid(row=2, column=1, pady=5, padx=20)
 
 lb4=Label(root, text="Wrong username or password !", font=("times new roman", 12, "bold"))
